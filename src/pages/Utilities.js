@@ -30,33 +30,33 @@ Class to arrange div in classic ways
 */
 export class History extends React.Component {
     render() {
-        if (this.props.Alignment === 'imageRight'){
+        if (this.props.Alignment === 'imageRight') {
             return (
-                <div className="row featurette">
+                <div className="row featurette adjustment-marg-bot-50">
                     <div className="col-md-7">
-                        <h2 className="featurette-heading">{this.props.Title1}<span className="text-muted">{this.props.Title2}</span></h2>
+                        <h2 className="featurette-heading adjustment">{this.props.Title1}<span className="text-muted">{this.props.Title2}</span></h2>
                         <p className="lead">{this.props.Description}</p>
                     </div>
                     <div className="col-md-5">
-                        <img width="400" height="400" src={this.props.Image} alt="icon" />
+                        <img src={this.props.Image} alt="icon" width="300px" />
                     </div>
                 </div>
             )
         } else {
             return (
-                <div className="row featurette">
+                <div className="row featurette adjustment-marg-bot-50">
                     <div className="col-md-5">
-                        <img width="400" height="400" src={this.props.Image} alt="icon" />
+                        <img src={this.props.Image} alt="icon" width="300px" />
                     </div>
                     <div className="col-md-7">
-                        <h2 className="featurette-heading">{this.props.Title1}<span className="text-muted">{this.props.Title2}</span></h2>
+                        <h2 className="featurette-heading adjustment">{this.props.Title1}<span className="text-muted">{this.props.Title2}</span></h2>
                         <p className="lead">{this.props.Description}</p>
                     </div>
-                    
+
                 </div>
             )
         }
-        
+
     }
 }
 
@@ -77,9 +77,41 @@ export class Feature extends React.Component {
     }
 }
 
-/* 
-CorporateList , 
-class to arrange image in classic ways 
+export class Portofolio extends React.Component {
+    render() {
+        if (this.props.Alignment === 'imageRight') {
+            return (
+                <div className="row featurette adjustment-marg-bot-50">
+                    <div className="col-md-7">
+                        <h2 className="featurette-heading adjustment">{this.props.Title1}<span className="text-muted">{this.props.Title2}</span></h2>
+                        <p className="lead">{this.props.Description}</p>
+                    </div>
+                    <div className="col-md-5">
+                        <img src={this.props.Image} alt="icon" width="100px" />
+                    </div>
+                </div>
+            )
+        } else {
+            return (
+                <div className="row featurette adjustment-marg-bot-50">
+                    <div className="col-md-3">
+                        <img src={this.props.Image} alt="icon" width="100px" />
+                    </div>
+                    <div className="col-md-9">
+                        <h4 className="adjustment">{this.props.Title1}<span className="text-muted">{this.props.Title2}</span></h4>
+                        <p className="lead">{this.props.Description}</p>
+                    </div>
+
+                </div>
+            )
+        }
+
+    }
+}
+
+/*
+CorporateList ,
+class to arrange image in classic ways
 */
 export class CorporateList extends React.Component {
     render() {

@@ -1,13 +1,17 @@
 import React from 'react'
-import  './assets/css/Bootstrap.min.css'
-import  './assets/css/Themes.css'
-import  './assets/css/Carousel.css'
+import './assets/css/Bootstrap.min.css'
+import './assets/css/Themes.css'
+import './assets/css/Carousel.css'
+import './assets/css/Resume.css'
+
+
 import { NavLink, Switch, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Portofolio from './pages/Portofolio'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Learn from './pages/Learn'
+import Resume from './pages/Resume'
 
 const Navigation = () => (
   <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -16,9 +20,9 @@ const Navigation = () => (
     </button>
     <div className="collapse navbar-collapse" id="navbarCollapse">
       <ul className="navbar-nav mr-auto">
-        <li className="nav-item"><NavLink className="nav-link" exact activeClassName="active" to='/'>Team and offices</NavLink></li>
-        <li className="nav-item"><NavLink className="nav-link" exact activeClassName="active" to='/about'>Culture</NavLink></li>
-        <li className="nav-item"><NavLink className="nav-link" exact activeClassName="active" to='/portofolio'>Benefit </NavLink></li>
+        <li className="nav-item"><NavLink className="nav-link" exact activeClassName="active" to='/'>Dirgantoro</NavLink></li>
+        <li className="nav-item"><NavLink className="nav-link" exact activeClassName="active" to='/resume'>Resume</NavLink></li>
+        <li className="nav-item"><NavLink className="nav-link" exact activeClassName="active" to='/portofolio'>Portofolio </NavLink></li>
         <li className="nav-item"><NavLink className="nav-link" exact activeClassName="active" to='/contact'>Contact</NavLink></li>
       </ul>
     </div>
@@ -28,7 +32,7 @@ const Navigation = () => (
 const Main = () => (
   <Switch>
     <Route exact path='/' component={Home}></Route>
-    <Route exact path='/about' component={About}></Route>
+    <Route exact path='/resume' component={Resume}></Route>
     <Route exact path='/portofolio' component={Portofolio}></Route>
     <Route exact path='/contact' component={Contact}></Route>
     <Route exact path='/learn' component={Learn}></Route>
@@ -48,16 +52,16 @@ const Footer = () => (
   </footer>
 )
 
-export default class App extends React.Component{
-  render(){
+export default class App extends React.Component {
+  render() {
     return (
       <div className="App">
-      <Header />
-      <main role="main">
-        <Main />
-      </main>
-      <Footer />
-    </div>
+        <Header />
+        <main role="main">
+          <Main />
+        </main>
+        <Footer />
+      </div>
     )
   }
 }
