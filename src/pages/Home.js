@@ -12,15 +12,15 @@ export default () => (
       <div className="carousel-inner">
         <Carousel
           ClassName="carousel-item active"
-          SlideSource={Images['Table.fcc80ff3.svg']}
+          SlideSource={Images['Table.4c54df5b.svg']}
           SlideTitle="Choose only two. Cheap, stable, fast." SlideDescription="Get your information technology journey with AlgoExpert. Get all you need" />
         <Carousel
           ClassName="carousel-item"
-          SlideSource={Images['Table.fcc80ff3.svg']}
+          SlideSource={Images['Table.4c54df5b.svg']}
           SlideTitle="Choose only two. Cheap, stable, fast a." SlideDescription="Get your information technology journey with AlgoExpert. Get all you need" />
         <Carousel
           ClassName="carousel-item"
-          SlideSource={Images['Table.fcc80ff3.svg']}
+          SlideSource={Images['Table.4c54df5b.svg']}
           SlideTitle="Choose only two. Cheap, stable, fast." SlideDescription="Get your information technology journey with AlgoExpert. Get all you need" />
       </div>
       <a className="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -55,18 +55,18 @@ export default () => (
         Image={Images['img-history.5ce04363.svg']} />
       {/* <hr className="featurette-divider"></hr> */}
       <div className="row">
-        <Feature 
-          Icon={Images['Iconsocial.d8e6023d.svg']} 
-          Title="Heading" 
-          Description="Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna."  />
-        <Feature 
-          Icon={Images['Iconsocial.d8e6023d.svg']} 
-          Title="Heading" 
-          Description="Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna."  />
-        <Feature 
-          Icon={Images['Iconsocial.d8e6023d.svg']} 
-          Title="Integrated" 
-          Description="Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna."  />
+        <Feature
+          Icon={Images['Iconsocial.d8e6023d.svg']}
+          Title="Heading"
+          Description="Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna." />
+        <Feature
+          Icon={Images['Iconsocial.d8e6023d.svg']}
+          Title="Heading"
+          Description="Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna." />
+        <Feature
+          Icon={Images['Iconsocial.d8e6023d.svg']}
+          Title="Integrated"
+          Description="Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna." />
       </div>
     </div>
   </div>
