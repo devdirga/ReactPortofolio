@@ -8,7 +8,7 @@ import './assets/css/Resume.css'
 import { NavLink, Switch, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Portofolio from './pages/Portofolio'
-import About from './pages/About'
+
 import Contact from './pages/Contact'
 import Learn from './pages/Learn'
 import Resume from './pages/Resume'
@@ -47,8 +47,8 @@ const Header = () => (
 
 const Footer = () => (
   <footer className="container">
-    <p className="float-right"><a href="/#">Back to top</a></p>
-    <p>&copy; 2017-2019 Company, Inc. &middot; <a href="/#">Privacy</a> &middot; <a href="/#">Terms</a></p>
+    {/* <p className="float-right"><a href="/#">Back to top</a></p> */}
+    <p>&copy; 2020 Company, Inc. &middot; <a href="/#">Privacy</a> &middot; <a href="/#">Terms</a></p>
   </footer>
 )
 

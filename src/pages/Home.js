@@ -25,28 +25,27 @@ export default () => (
     <div className="container marketing">
       <History
         Alignment="imageRight"
-        Title1="Portfolio Starter. "
-        Title2="Powered by React & Bootstrap. "
-        Description="This boostrap theme was forked from my personal website. I added more features and decided to release it as an open source project. Check it out on GitHub or check out the screencast I did. 
-        This boostrap theme was forked from my personal website. I added more features and decided to release it as an open source project. Check it out on GitHub or check out the screencast I did. "
+        Title1="Who am I?"
+        Title2=" Personality."
+        Description="I am responsible for several projects, where I am on the program development and implementation team. The team can make deliveries on time for software products. I was very motivated by the challenge of completing the project earlier than the tempo given and managing the team to reach the target."
         Image={Images['home-one.721e2ae2.svg']} />
+      <hr className="featurette-divider"></hr>
 
       <History
         Alignment="imageLeft"
-        Title1="Oh yeah, it's that good. "
-        Title2="See for yourself."
-        Description="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
-        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo."
+        Title1="How was my work experience?"
+        Title2=""
+        Description="I graduated from brawijaya university majoring in computer science. Then I went straight to work in 2011 at PT Triklin-Rekatama, Jakarta, an information technology consulting company. I also worked at PT Bimasakti Surabaya in a payment gateway company. Many important things I learned there. It was an amazing experience. And finally I worked in an international company Eaciit Ltd until now."
         Image={Images['home-two.fb0d4886.svg']} />
-      {/* <hr className="featurette-divider"></hr> */}
+      <hr className="featurette-divider"></hr>
 
       <History
         Alignment="imageRight"
-        Title1="Portfolio Starter. "
-        Title2="Powered by React & Bootstrap. "
-        Description="This boostrap theme was forked from my personal website. I added more features and decided to release it as an open source project. Check it out on GitHub or check out the screencast I did. 
-        This boostrap theme was forked from my personal website. I added more features and decided to release it as an open source project. Check it out on GitHub or check out the screencast I did. "
+        Title1="Portfolio."
+        Title2=""
+        Description="This boostrap theme was forked from my personal website. I added more features and decided to release it as an open source project. Check it out on GitHub or check out the screencast I did. "
         Image={Images['home-three.552134ec.svg']} />
+      <hr className="featurette-divider"></hr>
 
       {/*       
       <div className="row">

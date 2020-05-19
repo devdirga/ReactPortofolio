@@ -78,6 +78,38 @@ export class Feature extends React.Component {
     }
 }
 
+export class Resume extends React.Component {
+    render() {
+        if (this.props.Alignment === 'imageRight') {
+            return (
+                <div className="row featurette adjustment-marg-bot-50">
+                    <div className="col-md-7">
+                        <h2 className="featurette-heading adjustment">{this.props.Title1}<span className="text-muted">{this.props.Title2}</span></h2>
+                        <p className="lead">{this.props.Description}</p>
+                    </div>
+                    <div className="col-md-5">
+                        <img src={this.props.Image} alt="icon" width="200px" />
+                    </div>
+                </div>
+            )
+        } else {
+            return (
+                <div className="row featurette adjustment-marg-bot-50">
+                    <div className="col-md-3">
+                        <img src={this.props.Image} alt="icon" width="200px" />
+                    </div>
+                    <div className="col-md-9">
+                        <h2 className="featurette-heading adjustment">{this.props.Title1}<span className="text-muted">{this.props.Title2}</span></h2>
+                        <p className="lead">{this.props.Description}</p>
+                    </div>
+
+                </div>
+            )
+        }
+
+    }
+}
+
 export class Portofolio extends React.Component {
     render() {
         if (this.props.Alignment === 'imageRight') {
@@ -101,6 +133,7 @@ export class Portofolio extends React.Component {
                     <div className="col-md-9">
                         <h4 className="adjustment">{this.props.Title1}<span className="text-muted">{this.props.Title2}</span></h4>
                         <p className="lead">{this.props.Description}</p>
+                        <a href={this.props.Linked}>Linked</a>
                     </div>
 
                 </div>

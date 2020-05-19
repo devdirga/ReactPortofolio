@@ -28,3 +28,7 @@ ul.timeline > li:before {
     height: 20px;
     z-index: 400;
 }
+
+.resume-divider {
+    margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+  }
