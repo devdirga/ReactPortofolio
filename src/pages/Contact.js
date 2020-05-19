@@ -1,8 +1,6 @@
 import React from 'react'
-import { CorporateList } from "./Utilities";
-import Iconsocial from '../assets/img/Iconsocial.svg'
 import { Images } from "./Utilities";
-import { Portofolio, Resume } from "./Utilities";
+import { Resume } from "./Utilities";
 
 export default () => (
   <div className="container marketing">
@@ -14,6 +12,7 @@ export default () => (
       Title2="Contact Us"
       Description="We are happy can help you"
       Image={Images['home-three.552134ec.svg']} />
+
     <hr className="featurette-divider"></hr>
 
   </div>

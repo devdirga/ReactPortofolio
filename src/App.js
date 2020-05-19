@@ -1,16 +1,12 @@
 import React from 'react'
 import './assets/css/Bootstrap.min.css'
-import './assets/css/Themes.css'
 import './assets/css/Carousel.css'
-import './assets/css/Resume.css'
 
 
 import { NavLink, Switch, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Portofolio from './pages/Portofolio'
-
 import Contact from './pages/Contact'
-import Learn from './pages/Learn'
 import Resume from './pages/Resume'
 
 const Navigation = () => (
@@ -35,7 +31,6 @@ const Main = () => (
     <Route exact path='/resume' component={Resume}></Route>
     <Route exact path='/portofolio' component={Portofolio}></Route>
     <Route exact path='/contact' component={Contact}></Route>
-    <Route exact path='/learn' component={Learn}></Route>
   </Switch>
 )
 

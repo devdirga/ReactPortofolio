@@ -1,5 +1,5 @@
 import React from 'react'
-import { Carousel, History, Feature, Images } from "./Utilities";
+import { Carousel, History, Images } from "./Utilities";
 
 export default () => (
   <div>
