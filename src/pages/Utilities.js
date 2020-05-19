@@ -16,7 +16,8 @@ export class Carousel extends React.Component {
                     <div className="carousel-caption text-top" style={{ bottom: '8rem !important' }}>
                         <h1>{this.props.SlideTitle}</h1>
                         {Description({ message: this.props.SlideDescription })}
-                        <p><NavLink className="btn btn-lg btn-primary" to='/learn'>Learn more</NavLink>  </p>
+                        <p><NavLink className="btn btn-lg btn-primary" to='/resume'>Resume</NavLink></p>
+
                     </div>
                 </div>
             </div>
