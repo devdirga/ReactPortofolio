@@ -10,7 +10,7 @@ export default () => (
       <div className="carousel-inner">
         <Carousel
           ClassName="carousel-item active"
-          SlideSource={Images['Table.fcc80ff3.svg']}
+          SlideSource={Images['Table.4c54df5b.svg']}
           SlideTitle="Hi there, I'm Software Engineer based on Surabaya, Indonesia" SlideDescription="Choose only two. Cheap, stable, fast." />
       </div>
       <a className="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
