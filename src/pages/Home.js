@@ -29,6 +29,9 @@ export default () => (
         Title2=" Personality."
         Description="I am responsible for several projects, where I am on the program development and implementation team. The team can make deliveries on time for software products. I was very motivated by the challenge of completing the project earlier than the tempo given and managing the team to reach the target."
         Image={Images['home-one.721e2ae2.svg']} />
+
+      
+
       <hr className="featurette-divider"></hr>
 
       <History
