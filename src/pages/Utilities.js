@@ -12,7 +12,7 @@ export class Carousel extends React.Component {
         return (
             <div className={this.props.ClassName}>
                 {/* <img src={this.props.SlideSource} alt="icon" /> */}
-                <img src={require("../assets/img/background.svg")} height="200px"/>
+                <img src={require("../assets/img/background.svg")} height="200px" alt="background"/>
                 <div className="container">
                     <div className="carousel-caption text-top" style={{ bottom: '8rem !important' }}>
                         <h1>{this.props.SlideTitle}</h1>
@@ -41,7 +41,7 @@ export class History extends React.Component {
                     </div>
                     <div className="col-md-5">
                         {/* <img src={this.props.Image} alt="icon" width="300px" /> */}
-                        <img src={require("../assets/img/tools.svg")} width="300px" />
+                        <img src={require("../assets/img/tools.svg")} width="300px" alt="history" />
                     </div>
                 </div>
             )
