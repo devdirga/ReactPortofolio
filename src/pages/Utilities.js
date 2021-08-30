@@ -40,8 +40,8 @@ export class History extends React.Component {
                         <p className="lead">{this.props.Description}</p>
                     </div>
                     <div className="col-md-5">
-                        {/* <img src={this.props.Image} alt="icon" width="300px" /> */}
-                        <img src={require("../assets/img/tools.svg")} width="300px" alt="history" />
+                        <img src={this.props.Image} alt="icon" width="300px" />
+                        {/* <img src={require("../assets/img/tools.svg")} width="300px" alt="history" /> */}
                     </div>
                 </div>
             )
@@ -122,7 +122,8 @@ export class Portofolio extends React.Component {
                         <p className="lead">{this.props.Description}</p>
                     </div>
                     <div className="col-md-5">
-                        <img src={this.props.Image} alt="icon" width="100px" />
+                        {/* <img src={this.props.Image} alt="icon" width="100px" /> */}
+                        <img src={require("../assets/img/github-logo.svg")} width="100px" alt="history" />
                     </div>
                 </div>
             )
@@ -130,7 +131,8 @@ export class Portofolio extends React.Component {
             return (
                 <div className="row featurette adjustment-marg-bot-50">
                     <div className="col-md-3">
-                        <img src={this.props.Image} alt="icon" width="100px" />
+                        {/* <img src={this.props.Image} alt="icon" width="100px" /> */}
+                        <img src={require("../assets/img/github-logo.svg")} width="100px" alt="history" />
                     </div>
                     <div className="col-md-9">
                         <h4 className="adjustment">{this.props.Title1}<span className="text-muted">{this.props.Title2}</span></h4>
